@@ -1,3 +1,4 @@
+// The function generates the grades of students based on their score
 const student = ["Ayo", "Mary", "Janet", "Moses"]
 
 function grades(studentName, index, studentsScore){student.map( names=> names)
