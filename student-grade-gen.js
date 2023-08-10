@@ -19,6 +19,15 @@ function grades(studentName, index, studentsScore){student.map( names=> names)
     return studentName[index]
 }
 
-const mathematics = grades(student, 2, 85)
-console.log(mathematics)
+// test cases for the function
+const maths = grades(student, 0, 80) //You can replace the 2nd argument & 3rd argument for the student index & student score respectively.
+const english = grades(student, 1, 65) 
+const physics = grades(student, 2, 50)  
+const chemistry = grades(student, 3, 49)  
+
+console.log(maths)
+console.log(english)
+console.log(physics)
+console.log(chemistry)
+
 
